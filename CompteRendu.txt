@@ -1,0 +1,70 @@
+Projet Pokemon:
+
+Questions/Réponses:
+
+	Question 1 : 
+		Rien à dire, à par la classe Herbe. Implémentation d'un boolean "charge" pour modéliser le temps de chargement de l'attaque végé-attack (et afficher un message de chargement, en plus de ne pas utiliser d'attaque différente au tour suivant).
+	
+	Question 2 : 
+		Le talent s'active au début de Pokemon.combat(), avant la phase d'attaque. La classe bulbizarre est la première classe pokemon créée, elle me servira d'exemple, tous les commentaires y sont. Pour permettre au multiplicateur de s'activer et se désactiver, j'ai mis un boolean talent.
+	
+	Question 3 : 
+		Les fonctions fortContre et faibleContre sont relativement basiques, avec un parcours de deux tableaux initialisés dans les classes de type;
+	
+	Question 4 : 
+		Les nouvelles classes pokémons sont très similaires aux anciennes. Rien à dire dessus.
+	
+	Question 5 : 
+		Le combat seul est lançable avec le main contenu dans Combat.java. Cependant, ayant changé légerement la méthode Combat() pour qu'elle prenne un Monde en argument, certaines fonctionnalités (notamment la défaite et le "continuer?") engendrent une erreur, car pour ce combat, le monde est null. 
+	
+	Question 6 : 
+		Pas d'Allumette.
+		Les nouvelles classes type et Pokemons sont similaires aux anciennes.
+	
+	Question 7 : 
+		Fait comme demandé, sauf:
+		Carapuce a le même talent que les autres starters (dégats boostés en dessous de 30% pv), la méthode de regénération est sur d'autre pokémons, notamment Ramoloss.
+		Racaillou a un talent d'Endurance, qui lui permet de survivre à une attaque qui le one shot. Taupiqueur possède le talent de l'esquive (baissé à 20%, sinon trop fort), et Saquedeneu possède la réduction de dégats.
+		
+	Question 8 : 
+		Une trentaine de pokémons on été rajoutés.
+		Un des pokémons possedant le talent de paralysie si touché par une attaque est Magneti.
+		Pas de pokémons double type.
+		
+	Question 9 :
+		J'ai mis la quasi totalité des méthodes de choix et de menu dans la classe choix.java. 
+		La méthode lireAttaqueClavier() permettant de choisir l'attaque est surement celle sur laquelle j'ai le plus bûté. Je voulais qu'elle accepte une entrée clavier, tout en acceptant aussi un indice, en plus de permettre au Joueur de renoncer à l'attaque (ayant d'autres fonctionnalités en combat comme changer de pokémon ou utiliser des objets).
+		J'ai utilisé un scanner, et je comptais utiliser la méthode charat(0) pour trouver un indice. Mais cela me limittait à 9 attaques, et au cas où j'ai preféré utiliser la méthode Integer.parseInt. Si on écrivait correctement l'attaque, elle était considérée comme valide et tout se passait bien. Si on écrivait un nombre et qu'il correspondait pas à l'indice, la méthode continuait à demander jusqu'a avoir un indice ou une String valide. Le seul souci, c'était si on écrivait une attaque avec une faute de frappe. La méthode cherchait un Integer dans la String, n'en trouvait pas, et renvoyait une erreur (Même si je la traite avec un try n catch, je ne peux pas continuer le programme). Du coup, j'instancie deux variable, unt int, une String, qui correspondent à l'attaque. J'initialise l'int à -1, et si l'on tape un int, la méthode le met dans attaqueJoueurInt, vérifie qu'il soit valide et le return. Si on tape un char, c'est la variable AttaqueJoueur qui le récupère, et est renvoyée car attaqueJoueurInt est toujours à -1. C'est un peu sale (voir très sale), mais ça couvre la quasi totalité des erreurs possibles et je n'avais pas le courage de chercher autre chose. La seule erreur qui passe encore (que j'ai remarquée) est si l'on tape entrée sans rien mettre, car j'utilise toujours la méthode charat[0] pour vérifier si l'entrée est un int ou non, et ça renvoie l'erreur de ArrayOutOfRange.
+		
+	Question 10 :		
+		Le monde est initialisé comme demandé, avec pour seule fantaisie des couleur de terminal, et différents caractères représentant les différents éléments.
+		
+	Question 11 :
+		Le main est dans Jeu.java
+		La méthode jouer affiche le monde, teste si il y a des dresseurs sur la case du joueur, actualise leur niveau et active un combat le cas échéant.
+		Sinon, on regarde si le joueur est sur une case herbe, avec une chance sur 10 de tomber sur un pokémon sauvage, et active un combat le cas échéant. 
+		Sinon, on regarde si on est sur la porte du centre pokémon, et on active le menu du centre pokémon le cas échéant.
+		Sinon, on demande au joueur de se déplacer ou d'aller dans le menu (avec un simple Reader) on possède une méthode peutSeDeplacer qui détermine si le joueur peut se déplacer (ex si il ne se dirige pas vers les limites de la map) et le fait se déplacer le cas échéant.
+		
+	Question 12 :
+		J'ai rajouté le plus de texte possible, avec des actualisation de l'affichage (clearScreens());
+		
+	Pour aller plus loin...
+		Le joueur se déplace directement à l'infirmerie si il perd un combat et qu'il décide de continuer le jeu. Si il le gagne, il doit retourner  l'infirmerie pour soigner ses pokémons.
+		Le joueur possède un menu, ou il peut voir ses informations, ses pokémons, ses objets. Il peut également choisir un pokémon à mettre en première position, en relacher, utiliser des objets qu'il peut utiliser hors combat.
+		Les dresseurs ont un niveau correspondant à celui du joueur. Leurs pokémons ont 82% de chance de gagner un seul niveau à chaque montée de niveau de leur dresseur, 9% de ne pas en gagner, et 9% d'en gagner 2. Les pokémons sauvages sont automatiquement au niveau du pokémon combattant du joueur, avec un aléatoire de 3 niveaux en dessous au minimum.
+		En combat, un joueur peut choisir d'attaquer, de changer de pokémon (au risque de perdre un tour), d'utiliser un objet, ou de fuir (la fuite est considérée comme une défaite contre un dresseur).
+		 On peut essayer de lancer une pokéball a tout instant contre un pokémon sauvage, mais la réussite dépend du niveau de pv du pokémon.
+		 On ne peut traverser la rivière qu'en possession d'un pokémon eau, sinon, il faut utiliser le pont.
+		 Système d'argent.
+		
+		Les créations en +:
+			Les évolutions, avec chaque pokemon ayant un ID qui correspond en fait à son stade d'évolution. Un dracaufeu est toujours de l'espèce Salamèche, mais a juste changé de stats, de nom. La méthode évolution est appellée à chaque montée de niveau mais ne s'active qui selon des conditions requises (le plus souvent des niveaux fixes, mais essayez de donner un bonbon rage à magicarpe).
+			Des minis dialogues, avant chaque combat. La possibilité de décliner le défi.
+			Les menus en jeu.
+			Le choix entre une version rapide (pratique pour tester le jeu vite fait) et une version avec une intro, un choix de pokémon de départ, etc.
+			
+			
+		
+		
+	

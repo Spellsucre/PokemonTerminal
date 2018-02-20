@@ -1,0 +1,112 @@
+Save
+20
+20
+1 1 1 2 1 1 1 1 1 5 1 1 1 6 1 1 1 1 6 1 
+6 6 1 1 1 1 6 1 1 5 1 4 6 1 1 1 1 1 6 6 
+1 1 1 1 1 1 6 6 1 1 5 1 1 1 1 6 1 1 6 1 
+1 6 1 1 1 1 1 6 1 1 5 5 1 1 4 1 1 1 2 1 
+6 2 6 1 1 1 1 6 1 1 6 5 5 1 1 1 6 6 1 1 
+1 1 1 1 4 9 10 11 1 2 5 5 6 2 4 1 6 6 1 1 
+1 1 1 1 1 8 7 8 1 1 2 5 6 6 5 1 6 6 6 1 
+1 1 4 1 1 6 1 1 2 5 1 5 5 2 5 1 1 1 1 1 
+1 1 4 1 4 1 1 6 6 1 1 5 6 1 6 1 1 1 1 1 
+1 1 1 6 6 1 1 1 1 13 12 13 2 1 1 6 1 1 6 1 
+1 1 1 1 1 2 1 1 1 1 1 5 6 1 6 1 6 1 6 6 
+1 1 1 1 1 1 2 1 1 1 5 1 5 6 4 1 6 6 1 2 
+1 1 1 1 6 6 6 1 1 5 1 4 5 5 1 6 1 1 1 1 
+1 1 1 2 6 1 1 1 5 5 1 1 6 2 5 1 1 1 1 1 
+6 6 2 1 1 6 1 4 1 5 5 1 6 1 5 1 1 1 1 1 
+6 1 1 1 1 6 1 1 2 5 5 5 1 1 1 5 1 6 1 1 
+1 1 1 1 1 6 1 1 1 5 5 1 1 1 5 5 5 1 1 1 
+1 1 4 6 1 4 4 1 1 1 1 1 1 1 1 2 5 5 1 1 
+6 1 6 1 6 2 1 1 1 1 1 1 1 1 1 1 5 6 5 6 
+1 1 1 1 6 1 6 2 1 1 1 1 1 1 1 1 6 1 2 1 
+20
+20
+Dresseur2 7 8 1 11388 false 3
+class Racaillou Racaillou Racaillou1 3 212 212 60 90 0 false false 
+class Elekid Elekid Elekid1 2 201 201 93 102 0 false false 
+class Stari Stari Stari1 3 239 239 83 86 0 false false 
+Dresseur3 14 2 1 12459 false 3
+class Ponyta Ponyta Ponyta1 3 198 198 96 116 0 false false 
+class Caninos Caninos Caninos1 3 218 218 93 97 0 false false 
+class Ponyta Ponyta Ponyta2 3 182 182 105 110 0 false false 
+Dresseur4 7 13 1 11841 false 3
+class Hypotrempe Hypotrempe Hypotrempe1 3 217 217 74 93 0 false false 
+class Krabby Krabby Krabby1 3 173 173 90 95 0 false false 
+class Elekid Elekid Elekid2 3 208 208 98 99 0 false false 
+Dresseur5 18 5 1 12078 false 3
+class Elekid Elekid Elekid3 3 215 215 97 99 0 false false 
+class Chetiflor Chetiflor Chetiflor1 3 196 196 63 107 0 false false 
+class Poissirene Poissirene Poissirene1 3 208 208 83 94 0 false false 
+Dresseur6 19 18 1 11524 false 3
+class Psykokwak Psykokwak Psykokwak1 3 207 207 84 102 0 false false 
+class Onix Onix Onix1 2 239 239 66 104 0 false false 
+class Ramoloss Ramoloss Ramoloss1 3 276 276 63 89 0 false false 
+Dresseur7 4 1 1 11597 false 3
+class Ramoloss Ramoloss Ramoloss2 3 264 264 89 83 0 false false 
+class Elekid Elekid Elekid4 3 235 235 92 104 0 false false 
+class Ponyta Ponyta Ponyta3 3 208 208 76 118 0 false false 
+Dresseur8 3 18 1 12155 false 3
+class Hypotrempe Hypotrempe Hypotrempe2 3 225 225 70 102 0 false false 
+class Krabby Krabby Krabby2 3 187 187 83 99 0 false false 
+class Tentacool Tentacool Tentacool1 3 187 187 73 92 0 false false 
+Dresseur9 17 15 1 11936 false 3
+class Goupix Goupix Goupix1 3 181 181 78 109 0 false false 
+class Caninos Caninos Caninos2 3 221 221 93 99 0 false false 
+class Magicarpe Magicarpe Magicarpe1 3 113 113 39 89 0 false false 
+Dresseur10 10 5 1 12627 false 3
+class Magicarpe Magicarpe Magicarpe2 3 137 137 48 87 0 false false 
+class Magicarpe Magicarpe Magicarpe3 3 113 113 39 87 0 false false 
+class Hypotrempe Hypotrempe Hypotrempe3 3 204 204 87 95 0 false false 
+Dresseur11 11 6 1 11622 false 3
+class Psykokwak Psykokwak Psykokwak2 3 221 221 80 96 0 false false 
+class Chetiflor Chetiflor Chetiflor2 3 187 187 46 104 0 false false 
+class Mystherbe Mystherbe Mystherbe1 4 215 215 88 97 0 false false 
+Dresseur12 5 13 1 11977 false 3
+class Onix Onix Onix2 3 258 258 83 108 0 false false 
+class Caninos Caninos Caninos3 2 236 236 86 96 0 false false 
+class Magneti Magneti Magneti1 3 191 191 83 92 0 false false 
+Dresseur13 11 19 1 11713 false 3
+class Poissirene Poissirene Poissirene2 3 177 177 79 102 0 false false 
+class Psykokwak Psykokwak Psykokwak3 3 234 234 92 98 0 false false 
+class Chetiflor Chetiflor Chetiflor3 2 184 184 50 103 0 false false 
+Dresseur14 6 10 1 12591 false 3
+class Tentacool Tentacool Tentacool2 3 222 222 84 100 0 false false 
+class Sabelette Sabelette Sabelette1 3 116 116 85 96 0 false false 
+class Aspicot Aspicot Aspicot1 2 153 153 86 93 0 false false 
+Dresseur15 19 7 1 12163 false 3
+class Poissirene Poissirene Poissirene3 3 190 190 88 94 0 false false 
+class Ptitard Ptitard Ptitard1 3 174 174 66 94 0 false false 
+class Chenipan Chenipan Chenipan1 2 190 190 58 95 0 false false 
+Dresseur16 9 12 1 12004 false 3
+class Aspicot Aspicot Aspicot2 3 199 199 65 96 0 false false 
+class Caninos Caninos Caninos4 3 223 223 104 95 0 false false 
+class Rhinocorne Rhinocorne Rhinocorne1 3 271 271 74 72 0 false false 
+Dresseur17 13 3 1 12433 false 3
+class Magneti Magneti Magneti2 4 218 218 100 94 0 false false 
+class Stari Stari Stari2 3 224 224 85 83 0 false false 
+class Rhinocorne Rhinocorne Rhinocorne2 4 265 265 76 80 0 false false 
+Dresseur18 0 3 1 12080 false 3
+class Onix Onix Onix3 3 227 227 70 107 0 false false 
+class Otaria Otaria Otaria1 3 212 212 78 102 0 false false 
+class Krabby Krabby Krabby3 3 171 171 64 100 0 false false 
+Dresseur19 13 13 1 12047 false 3
+class Magby Magby Magby1 3 226 226 91 105 0 false false 
+class Poissirene Poissirene Poissirene4 4 211 211 88 94 0 false false 
+class Krabby Krabby Krabby4 4 205 205 78 97 0 false false 
+Dresseur20 15 8 1 11767 false 3
+class Magicarpe Magicarpe Magicarpe4 3 136 136 51 90 0 false false 
+class Caninos Caninos Caninos5 3 211 211 86 97 0 false false 
+class Voltorbe Voltorbe Voltorbe1 3 157 157 98 114 0 false false 
+Dresseur21 5 9 1 11481 false 3
+class Saquedeneu Saquedeneu Saquedeneu1 3 240 240 59 87 0 false false 
+class Taupiqueur Taupiqueur Taupiqueur1 3 168 168 77 118 0 false false 
+class Saquedeneu Saquedeneu Saquedeneu2 3 260 260 64 87 0 false false 
+Paul 12 6 1 2217 0 0 2
+class Pikachu Pikachu Patate 1 220 179 90 115 0 false false 
+class Psykokwak Psykokwak Psykokwak 1 206 206 79 95 0 false false 
+3
+class Pokeball 4 
+class Potion 0 
+class BonbonRage 0 
